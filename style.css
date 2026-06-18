@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.converter {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.converter h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.campo input,
+.campo select {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #334155;
+    color: white;
+    font-size: 16px;
+}
+
+.campo input:focus,
+.campo select:focus {
+    outline: 2px solid #38bdf8;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0ea5e9;
+    transform: translateY(-2px);
+}
+.resultado {
+    margin-top: 20px;
+    text-align: center;
+    padding: 12px;
+    background: #334155;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bandeira-container {
+    margin-top: 15px;
+    text-align: center;
+    background: #334155;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.bandeira-container img {
+    width: 80px;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #38bdf8;
+}
+
+.bandeira-container p {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    background: #0f172a;
+    color: #cbd5e1;
+    font-size: 14px;
+    border-top: 1px solid #334155;
+}

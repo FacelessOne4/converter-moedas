@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <div class="converter">
+        <h2>Conversor de Moedas</h2>
+    
+        <div class="campo">
+            <label>Valor</label>
+            <input type="number" placeholder="Digite o valor">
+        </div>
+    
+        <div class="campo">
+            <label>Para</label>
+            <select id="moedaDestino">
+                <option value="BRL">Real (BRL)</option>
+                <option value="USD">Dólar (USD)</option>
+                <option value="JPY">Yen (JPY)</option>
+            </select>
+        </div>
+        
+        <div class="bandeira-container">
+            <img id="bandeira" src="https://flagcdn.com/w160/br.png" alt="Bandeira">
+            <p id="nomeMoeda">Real Brasileiro</p>
+        </div>
+    
+        <div class="campo">
+            <label>Para</label>
+            <select>
+                <option>Real (BRL)</option>
+                <option>Dólar (USD)</option>
+                <option>Yen (JPY)</option>
+            </select>
+        </div>
+    
+        <button>Converter</button>
+    
+        <div class="resultado">
+            Resultado: 0,00
+        </div>
+    </div>
+    <footer>
+        Desenvolvido por Ryan S Medeiros
+    </footer>
+</body>
+</html>
